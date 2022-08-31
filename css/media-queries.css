@@ -48,4 +48,5 @@
 	.journey-row .journey-content-box{margin-bottom: 20px;padding-bottom: 30px;}
 	.contact-buttons-wrapper{margin-bottom: 140px;}
 	footer#contact-wrapper .container-fluid:after{right: 50%;transform: translate(50%);}
+	.instagram-wrapper .section-header:before{display: none;}
 }
