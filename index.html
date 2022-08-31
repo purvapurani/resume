@@ -1,10 +1,479 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html lang="en" style="width:100%; height:100%;">
-<head>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <title>Purva Purani's Resume</title>
-</head>
-  <body style="width:100%; height:100%; margin:0;">
-    <iframe src="https://docs.google.com/gview?url=https://github.com/purvapurani/resume/raw/main/Resume.pdf&amp;embedded=true" style="width:100%; height:100%;" frameborder="0"></iframe>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="I demonstrate excellence in customer relationship, post-sales, service delivery, and people management. I believe that clients should see our services as an extension of their team, and we should leave no stone unturned to help our clients reach their goals."/>
+    
+    <title>Purva Purani - Client Account Manager</title>
+
+    <meta property="og:type" content="Website" />
+    <meta property="og:url" content="https://www.purvapurani.github.io/resume" />
+    <meta property="og:title" content="Purva Purani - Client Account Manager" />
+    <meta property="og:image" content="../resume/images/og-image.png" />
+    <link rel="canonical" href="https://www.purvapurani.github.io/resume" />
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="../resume/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../resume/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../resume/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="../resume/images/favicon/site.webmanifest">
+    <link rel="mask-icon" href="../resume/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="../resume/images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="../resume/images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+    <link href="../resume/css/main.css" rel="stylesheet">
+    <link href="../resume/css/media-queries.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script>
+      window.onload = function() {
+        setTimeout(function() {
+          document.getElementById('mainwrapper').style.opacity = '1';
+
+          var findMe = document.querySelectorAll('.animation-section');
+          window.addEventListener('scroll', function(event) {
+          // add event on scroll
+          findMe.forEach(element => {
+              //for each .thisisatest
+              if (isInViewport(element)) {
+                //if in Viewport
+                element.classList.add("animate-me");
+              }
+          });
+
+          var social = document.getElementById('social-wrapper');
+
+          if ((social.offsetTop + window.innerHeight) <= window.pageYOffset){
+            social.classList.add("animate-me");
+          }
+
+          }, false);
+        }, 1000);
+      };
+
+      var isInViewport = function(elem) {
+      var distance = elem.getBoundingClientRect();
+      
+      if(window.innerWidth >= 768){
+         return (
+            distance.top >= 0 &&
+            distance.left >= 0 &&
+            (distance.bottom - (distance.bottom/3)) <= (window.innerHeight || document.documentElement.clientHeight) &&
+            distance.right <= (window.innerWidth || document.documentElement.clientWidth)
+          );
+        }
+        else{
+
+          if(elem.getAttribute("id") == "testimonials-wrapper"){
+            return (
+              (distance.bottom - (distance.bottom/2) - (window.innerHeight/3)) <= (window.innerHeight || document.documentElement.clientHeight) &&
+              distance.right <= (window.innerWidth || document.documentElement.clientWidth)
+            );
+          }
+          else{
+            return (
+              distance.top >= 0 &&
+              distance.left >= 0 &&
+              (distance.bottom - (distance.bottom/2)) <= (window.innerHeight || document.documentElement.clientHeight) &&
+              distance.right <= (window.innerWidth || document.documentElement.clientWidth)
+            );
+          }
+        }
+
+      
+        
+      
+    };
+
+    $(document).on("click",".download-resume-icon a",function(){
+      $(".thank-you-box").css("display","flex");
+      setTimeout(function(){
+        $(".thank-you-box").css("opacity","1");
+        $(".thank-you-box-inner").addClass("animate-me");
+      },200)
+    })
+    $(document).on("click",".close-thank-you-popup",function(){
+      $(".thank-you-box-inner").removeClass("animate-me");      
+      setTimeout(function(){
+        $(".thank-you-box").css("opacity","0");
+      },500)
+      setTimeout(function(){
+      $(".thank-you-box").css("display","none");
+    },1600)
+    })
+    // read the link on how above code works
+
+
+    </script>
+  </head>
+  <body id="body">
+    <div class="loader"></div>
+    <main id="mainwrapper">
+      <!--<header class="container-fluid"><div class="row"><div class="header-left col"></div><div class="header-center col"><img src="../resume/images/logo.png" alt="Purva Purani" /></div><div class="header-right col"></div></div></header>-->
+      <section class="banner">
+        <div id="particles"><canvas class="pg-canvas" width="100%" style="display: block;" height="100vh"></canvas></div>
+        <div class="banner-text">
+          <div class="profile-picture">
+            <img src="../resume/images/profile-picture.png" />
+          </div>
+          <p style="margin:0;">
+            <em>Hey, I'm</em>
+          </p>
+          <h1 style="margin-top:-20px">
+            <img src="../resume/images/logo.png" alt="Purva Purani" />
+            <p style="text-align: center;font-size: 50%;margin-top: -30px;">
+              <strong>CLIENT ACCOUNT MANAGER</strong>
+            </p>
+          </h1>
+        </div>
+        <span class="scrolldown">
+            <img src="../resume/images/icons/scroll.svg" alt="" />
+          </span>
+      </section>
+    <section class="main-inner-wrapper">
+      <section class="about-section" id="intro-wrapper">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="offset-sm-1 col-md-10">
+              <div class="section-header">
+                <h2>A bit about me</h2>
+              </div>
+              <p>I began my career as a front-end developer after earning a bachelor’s degree in Computer Science & Engineering in 2015. However, being a people person, I decided to try account management a few years later and have never looked back ever&nbsp;since.</p>
+              <p>Being an Client Account Manager, I pack a varied work experience that spans front-end development, team leadership, and client services. All the hard work and dedication continue to earn me praise from clients and colleagues&nbsp;alike.</p>
+              <p>I demonstrate excellence in customer relationship, post-sales, service delivery, and people management. I believe that clients should see our services as an extension of their team, and we should leave no stone unturned to help our clients reach their&nbsp;goals.</p>
+              <p>In my spare time, you can see me painting, listen to music, and Netflixing when I am not endlessly scrolling my Instagram feed. I am also a pet person, and want to adopt a dog someday, or maybe let a cat adopt me. A girl can dream, can’t&nbsp;she?</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="journey-wrapper" id="journey-wrapper">
+        <section class=" container-fluid">
+          <div class="row">
+            <div class="col">
+              <div class="section-header">
+                <h2>My Journey</h2>
+              </div>
+              <div class="row journey-row animation-section journey-row-1">
+                <div class="col-md-4 offset-md-1">
+                  <div class="journey-intro-box">
+                    <p>
+                      <img src="../resume/images/company-logos/e2m.png" alt="E2M Solutions" style="max-width:100px" />
+                    </p>
+                    <h2>Client Account Manager</h2>
+                    <h4>JAN 2022 - PRESENT</h4>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="journey-content-box">
+                    <ul>
+                      <li>Being the primary contact person for high-end US clients. Being a liaison between client and technical project managers while providing strategic guidance to build relationships with the client.</li>
+                      <li>Managing account renewals and invoices in the billing software in order to maintain a revenue base. Hold weekly/biweekly client meetings to discuss project status and feedback and address escalation requests. Selling plan upgrades and cross-selling other services to existing clients. Conducting sales calls to onboard new clients.</li>
+                      <li>Streamlined internal processes in the client services department. Developed the company's client onboarding manual and questionnaire, established a process for regular customer feedback, introduced NPS surveys, and introduced HubSpot CRM within the company.</li>
+                      <li>Was a member of the feedback team for the development of the company's in-house billing software, actively testing the product to provide feedback.</li>
+                      <li>Improved the quality, effectiveness, and efficiency of our processes and improved client experience by developing and sharing best practices with team members.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="row journey-row animation-section journey-row-2">
+                <div class="col-md-6 offset-md-1">
+                  <div class="journey-content-box">
+                    <ul>
+                      <li>Proficiency in customer experience and account management, Microsoft Dynamics 365 CRM, in-house billing software &amp; work order system.</li>
+                      <li>Manage client-facing projects which include small-level annual reports to larger-scale website redesigning or careers/media website projects. Along with projects, manage day-to-day service requests.</li>
+                      <li>Regular catch-ups with the internal product teams and provide feedback and enhancement suggestions regarding technical enhancements as well as customer experience.</li>
+                      <li>Lead the team to the effective completion of the project within budgeted hours while maintaining quality. Provide technical guidance for problem-solving and maintaining team morale. <br />In charge of maintaining a client's digital presence by monitoring the website performance using: <ul>
+                          <li>Google Analytics to analyze details of website visitors.</li>
+                          <li>Google tag manager to add and update tags for detailed site analytics.</li>
+                          <li>Google search console to monitor website performance in Google Search results.</li>
+                        </ul>
+                      </li>
+                      <li>Pitch ideas for potential website upgrades and try to encourage clients to utilize their annual contractual service hours.</li>
+                      <li>Conduct regular catch-up calls and scrum meetings to know what the client wants, project status updates, and how I can help make their digital vision come alive.</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-4 offset-lg-1">
+                  <div class="journey-intro-box">
+                    <p>
+                      <img src="../resume/images/company-logos/investis-digital.png" alt="E2M Solutions" style="max-width:250px" />
+                    </p>
+                    <h2>Digital Communications Manager</h2>
+                    <h4>JAN 2019 - DEC 2021</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="row journey-row animation-section journey-row-3">
+                <div class="col-md-4 offset-md-1">
+                  <div class="journey-intro-box">
+                    <p>
+                      <img src="../resume/images/company-logos/investis-digital.png" alt="E2M Solutions" style="max-width:250px" />
+                    </p>
+                    <h2>Build Delivery</h2>
+                    <br />
+                    <h3>Team Lead</h3>
+                    <h4>JAN 2018 - DEC 2018</h4>
+                    <br />
+                    <h3>Web Producer</h3>
+                    <h4>JULY 2015 - DEC 2017</h4>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="journey-content-box">
+                    <ul>
+                      <li>The youngest employee selected to undergo 1-year management training under mPower training solutions conducted for Team leads and Project managers at Investis.</li>
+                      <li>Based on my technical as well as overall performance in different areas, I got promoted as a team lead within just 2 years of starting my career during which I got to manage my team as well as some very important projects like Rolls-Royce, ArcelorMittal, and Phoenix Life to name a few.</li>
+                      <li>Later, got offered to manage the technical multimedia team of the company.</li>
+                    </ul>
+                    <hr />
+                    <ul>
+                      <li>Built a lot of technically challenging websites for some very well-known clients like Arcelor-Mittal, Rolls-Royce, Estee Lauder Companies, etc.</li>
+                      <li>Got selected to build the corporate website for the company’s biggest European client OSRAM just after 3 months of joining as a fresher. After completion of that project, I worked on the corporate website for the company’s biggest American client Estée Lauder and was later selected as a Team lead candidate. Then later got a chance to work on the corporate website for Rolls Royce and then start my journey as a team-lead.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </section>
+      </section>
+      <section class="certificates-wrapper animation-section" id="certifications-wrapper">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-10 offset-md-1">
+              <div class="section-header">
+                <h2>Certifications</h2>
+              </div>
+              <div class="row animation-row">
+                <div class="col-md-4 col-xs-12 cert-box">
+                  <div class="cert-logo">
+                    <img src="../resume/images/company-logos/axelos.png" alt="axelos" />
+                  </div>
+                  <h3>ITIL Foundation Level</h3>
+                  <p>
+                    <strong>AXELOS Global Best Practice</strong>
+                  </p>
+                  <p>Issued Oct 2019 - No Expiration Date</p>
+                </div>
+                <div class="col-md-4 col-xs-12 cert-box">
+                  <div class="cert-logo">
+                    <img src="../resume/images/company-logos/digital-unlocked.jpeg" alt="Google Digital Unlocked" />
+                  </div>
+                  <h3>Fundamentals of digital marketing</h3>
+                  <p>
+                    <strong>Google Digital Unlocked</strong>
+                  </p>
+                  <p>Issued May 2021 - No Expiration Date</p>
+                </div>
+                <div class="col-md-4 col-xs-12 cert-box">
+                  <div class="cert-logo">
+                    <img src="../resume/images/company-logos/google-analytics.png" alt="Google Analytics Academy" />
+                  </div>
+                  <h3>Advanced Google Analytics</h3>
+                  <p>
+                    <strong>Google Analytics Academy</strong>
+                  </p>
+                  <p>Issued Oct 2021 - Oct 2024</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="testimonials-wrapper animation-section" id="testimonials-wrapper">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col">
+              <div class="section-header">
+                <h2>Testimonials</h2>
+                <p>This is why I do what I do!</p>
+              </div>
+              <div class="testimonials-blocks">
+                <div class="row">
+                  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 testimonial-col">
+                    <div class="testimonials-box testimonials-box1">
+                      <p>Purva is absolutely amazing, never too busy to answer my daft questions and always keeps me in the loop!</p>
+                      <div class="testimonials-bottom">
+                        <p>Clare Elman - Communications Officer, Assura Group&nbsp;plc</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 testimonial-col">
+                    <div class="testimonials-box testimonials-box2">
+                      <p>Thanks to you and your colleagues who delivered the project, it worked very well indeed. We’re delighted with the end product and the process.</p>
+                      <div class="testimonials-bottom">
+                        <p>Sean McKeon - Company Secretary, Dalata Hotel Group&nbsp;plc</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 testimonial-col">
+                    <div class="testimonials-box testimonials-box3">
+                      <p>Not enough words to thank you for helping me and the team so proactively during the project. You are the best!</p>
+                      <div class="testimonials-bottom">
+                        <p>Elson Freitas - PSM, Investis&nbsp;Digital</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 testimonial-col">
+                    <div class="testimonials-box testimonials-box4">
+                      <p>Purva has been a great help to me and really appreciate her work ethic, it’s great to know you can provide information and it’s addressed immediately, brilliant!</p>
+                      <div class="testimonials-bottom">
+                        <p>Sonia Salisbury - Marketing Communications Manager, IBStock&nbsp;plc</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="social-wrapper" id="social-wrapper">
+        <section class="container-fluid">
+          <div class="row">
+            <div class="col">
+              <div class="section-header">
+                <h2>Let's get social</h2>
+                <p style="margin-top:20px">Connecting on LinkedIn is always a good idea. Go on, send me a connection request.</p>
+              </div>
+              <div class="row linkedin-wrapper">
+                <div class="col">
+                  <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="light" data-type="HORIZONTAL" data-vanity="purva-purani-55aa97b1" data-version="v1"></div>
+                </div>
+              </div>
+              <div class="row instagram-wrapper">
+                <div class="section-header">
+                  <div class="col">
+                    <h3>Oh and did I mention that I paint?</h3>
+                  </div>
+                </div>
+                <!-- Place <div> tag where you want the feed to appear -->
+<div id="curator-feed-personal-instagram-layout"><a href="https://curator.io" target="_blank" class="crt-logo crt-tag">Powered by Curator.io</a></div><!-- The Javascript can be moved to the end of the html page before the </body> tag --><script type="text/javascript">
+/* curator-feed-personal-instagram-layout */
+(function(){
+var i,e,d=document,s="script";i=d.createElement("script");i.async=1;i.charset="UTF-8";
+i.src="https://cdn.curator.io/published/c70c2ae9-7ae1-4e4a-adae-86f72861eb94.js";
+e=d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
+})();
+</script>
+              </div>
+              <!--<div class="row dweej-instagram">
+                <div class="section-header">
+                  <div class="col">
+                    <h3>Also, I manage social media for our Dental Clinic!</h3>
+                  </div>
+                </div>
+
+
+<div id="curator-feed-default-feed-layout"><a href="https://curator.io" target="_blank" class="crt-logo crt-tag">Powered by Curator.io</a></div><script type="text/javascript">
+/* curator-feed-default-feed-layout */
+(function(){
+var i,e,d=document,s="script";i=d.createElement("script");i.async=1;i.charset="UTF-8";
+i.src="https://cdn.curator.io/published/5030b897-0104-447d-a9f3-b63d8a233321.js";
+e=d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
+})();
+</script>
+              </div>-->
+            </div>
+          </div>
+        </section>
+      </section>
+      <footer class="contact-wrapper" id="contact-wrapper">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="offset-md-1 col-md-10">
+              <div class="section-header">
+                  <div class="col">
+                    <h2>Get in touch</h2>
+                    <p>No matter what. Just do it</p>
+                  </div>
+                </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col contact-buttons-wrapper">
+              <div class="contact-button">
+                <a href="mailto:purvapurani@gmail.com?subject=Saw your website and wanted to get in touch!"><img src="../resume/images/icons/mail.png" alt="" /></a>
+              </div>
+              <div class="contact-button">
+                <a href="#"><img src="../resume/images/icons/phone.png" alt="" /></a>
+              </div>
+              <!--<div class="contact-button">
+                <a href="https://www.instagram.com/quirkylittlenobody/" target="_blank"><img src="../resume/images/icons/instagram.png" alt="" /></a>
+              </div>-->
+              <div class="contact-button">
+                <a href="https://www.linkedin.com/in/purva-purani-55aa97b1/" target="_blank"><img src="../resume/images/icons/linkedin.png" alt="" /></a>
+              </div>
+            </div>
+        </div></div>
+      </footer>
+      <section class="delivered-wrapper">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col">
+                <p>Designed and delivered by Purva Purani</p>
+              </div>
+            </div>
+          </div>
+        </section></section>
+      <section class="download-resume-icon">
+        <a href="https://github.com/purvapurani/resume/raw/main/Resume.pdf" title="Download full resume">
+          <img src="../resume/images/icons/download-resume.png" alt="" />
+        </a>
+      </section>
+      <article class="thank-you-box">
+        <div class="thank-you-box-inner">
+          <span class="close-thank-you-popup"><img src="../resume/images/icons/close.jpeg" alt=""></span>
+          <div class="thank-you-header">
+            <img src="../resume/images/icons/thank-you.png" alt="" />
+          <h2>Thank you for downloading my resume.</h2>
+        </div>
+        <p>I'm currently open for new challenging opportunities, Feel free to get in touch!</p>
+        <div class="col contact-buttons-wrapper">
+              <div class="contact-button">
+                <a href="mailto:purvapurani@gmail.com?subject=Saw your website and wanted to get in touch!"><img src="../resume/images/icons/mail.png" alt="" /></a>
+              </div>
+              <div class="contact-button">
+                <a href="#"><img src="../resume/images/icons/phone.png" alt="" /></a>
+              </div>
+              <!--<div class="contact-button">
+                <a href="https://www.instagram.com/quirkylittlenobody/" target="_blank"><img src="../resume/images/icons/instagram.png" alt="" /></a>
+              </div>-->
+              <div class="contact-button">
+                <a href="https://www.linkedin.com/in/purva-purani-55aa97b1/" target="_blank"><img src="../resume/images/icons/linkedin.png" alt="" /></a>
+              </div>
+            </div>
+          </div>
+      </article>
+      <section class="page-navigation">
+        <ul>
+          <li><a href="#intro-wrapper"><span>A bit about me</span></a></li>
+          <li><a href="#journey-wrapper"><span>My Journey</span></a></li>
+          <li><a href="#certifications-wrapper"><span>Certifications</span></a></li>
+          <li><a href="#testimonials-wrapper"><span>Testimonials</span></a></li>
+          <li><a href="#social-wrapper"><span>Let's get social</span></a></li>
+          <li><a href="#contact-wrapper"><span>Get in touch</span></a></li>
+        </ul>
+      </section>
+    </main>
+    <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+    <script type="text/javascript" src="../resume/js/jquery.particleground.min.js"></script>
+    <script type="text/javascript" src="../resume/js/particle-call.js"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-08W5S53VGV"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-08W5S53VGV');
+    </script>
   </body>
 </html>
