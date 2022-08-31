@@ -1,0 +1,51 @@
+@media all and (max-width:1366px) and (min-width: 992px){
+	.testimonials-blocks {margin: 0 10vw;}
+	.testimonials-box{padding-bottom:110px;min-height: 340px;}
+	.testimonials-wrapper p{font-size: 1em;}
+	.testimonials-box .testimonials-bottom p {font-size: 0.8em;}
+	.testimonials-bottom{padding: 10px; min-height: 110px;align-items: end;}
+	.testimonials-wrapper{padding-bottom: 100px;}
+	section#testimonials-wrapper .testimonials-blocks:before{top: calc(100% - 44px);}
+	.banner-text h1 img{width: 70%;}
+	.banner-text{width: 100%;}
+	.banner-text h1 img{padding: 0;}
+	.banner-text h1{display: inline-block;}
+}
+
+@media all and (max-width:991px) and (min-width: 768px){
+	.testimonials-blocks {margin: 0 10vw;}
+	.testimonial-col{margin-bottom: 20px;}
+	.testimonials-wrapper{padding-bottom: 80px;}
+	.journey-intro-box img {max-width: 100% !important;}
+	ul li, body p,section.about-section p{font-size: 0.9em;}
+	.banner-text{width: 100%;}
+	.banner-text h1 img{width: 70%;padding: 0;}
+	.banner-text h1{display: inline-block;margin-top: -10px !important}
+	.banner-text p{margin-top: 0 !important;}
+	.page-navigation{display: none;}
+}
+
+@media all and (max-width: 767px){
+	.section-header h2{font-size: 2.4em;padding: 0 70px}
+	.banner-text{width: 90%;}
+	.banner-text h1{display: inline-block;margin-top: -10px !important}
+	.banner-text p{margin-top: 0 !important;}
+	.banner-text h1 img{padding: 0;width: 100%}
+	.banner-text h1:before, .banner-text h1:after{display: none;} 
+	.page-navigation{display: none;}
+	section.about-section:before{display: none;}
+	section#intro-wrapper .container-fluid{padding-bottom: 120px;}
+	section#intro-wrapper .container-fluid:before{left: 50%;transform: translateX(-50%);}
+	.cert-box{margin-bottom: 20px;}
+	section.certificates-wrapper:after{top: 120px;height: 100vw;width: 85%}
+	.testimonials-wrapper{margin:20px 0 ;}
+	.testimonials-blocks{margin: 0 10% 60px;}
+	.testimonial-col{margin-bottom: 20px;}
+	section#testimonials-wrapper .section-header h2 {padding: 0 20px;}
+	.journey-row-2 {flex-direction: column-reverse;}
+	.journey-row-2 .journey-content-box:before {left: auto;right: 0;}
+	.journey-intro-box{padding-right: 90px;padding-bottom: 20px;}
+	.journey-row .journey-content-box{margin-bottom: 20px;padding-bottom: 30px;}
+	.contact-buttons-wrapper{margin-bottom: 140px;}
+	footer#contact-wrapper .container-fluid:after{right: 50%;transform: translate(50%);}
+}
