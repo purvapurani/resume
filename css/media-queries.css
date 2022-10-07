@@ -49,4 +49,6 @@
 	.contact-buttons-wrapper{margin-bottom: 140px;}
 	footer#contact-wrapper .container-fluid:after{right: 50%;transform: translate(50%);}
 	.instagram-wrapper .section-header:before{display: none;}
+	.thank-you-box-inner{max-width: 85vw;padding: 10px 25px 30px;}
+	.thank-you-header h2 {font-size: 24px;}
 }
