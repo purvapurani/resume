@@ -124,8 +124,8 @@ a.crt-logo.crt-tag{text-align:center;margin-top:10px!important;font-size:.8em!im
 .crt-grid-post-content svg.crt-icon-instagram{color:#fff!important;width:16px!important;height:16px!important}
 .crt-no-touch .crt-grid-post:not(.crt-post-youtube) .crt-post-c:hover .crt-post-hover{z-index:100}
 .crt-no-touch .crt-grid-post:not(.crt-post-youtube) .crt-post-c{cursor:url(../images/icons/cursor-pointer.png),auto!important}
-.crt-panel-prev svg {margin-left: 15px;}
-.crt-panel-next svg {margin-left: 15px;}
+.crt-panel-prev svg {margin-left: 15px !important;}
+.crt-panel-next svg {margin-left: 15px !important;}
 .section-header{width:100%;padding:50px 0 20px;text-align:center;position:relative;z-index:15}
 .profile-badge__content-profile-name-link{font-size:20px!important;font-weight:800!important}
 .profile-badge__content-profile-headline{font-size:16px!important}
