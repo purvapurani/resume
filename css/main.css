@@ -114,7 +114,7 @@ section.social-wrapper.animate-me:after{top:309px}
 a.crt-logo.crt-tag{text-align:center;margin-top:10px!important;font-size:.8em!important;width:100%;display:block}
 .instagram-wrapper{margin-top:120px}
 .instagram-wrapper .section-header{padding-bottom:30px}
-.instagram-wrapper .crt-carousel-pane{width:33%!important}
+/*.instagram-wrapper .crt-carousel-pane{width:33%!important}*/
 .crt-popup-wrapper .crt-popup.crt-has-read-more.has-image .crt-popup-right .crt-popup-text{text-align:center}
 .crt-widget .crt-grid-post .crt-post-text a{display:none}
 .crt-grid-post-content span.crt-social-icon{background:linear-gradient(180deg,rgba(231,3,108,.75) 0%,rgba(255,77,65,.75) 90%);border-radius:50%;z-index:50;padding:5px}
