@@ -124,8 +124,8 @@ a.crt-logo.crt-tag{text-align:center;margin-top:10px!important;font-size:.8em!im
 .crt-grid-post-content svg.crt-icon-instagram{color:#fff!important;width:16px!important;height:16px!important}
 .crt-no-touch .crt-grid-post:not(.crt-post-youtube) .crt-post-c:hover .crt-post-hover{z-index:100}
 .crt-no-touch .crt-grid-post:not(.crt-post-youtube) .crt-post-c{cursor:url(../images/icons/cursor-pointer.png),auto!important}
-.crt-panel-prev svg {margin-left: 15px !important;}
-.crt-panel-next svg {margin-left: 15px !important;}
+.crt-panel-prev svg {margin-left: 0px !important;}
+.crt-panel-next svg {margin-left: 0px !important;}
 .section-header{width:100%;padding:50px 0 20px;text-align:center;position:relative;z-index:15}
 .profile-badge__content-profile-name-link{font-size:20px!important;font-weight:800!important}
 .profile-badge__content-profile-headline{font-size:16px!important}
@@ -137,7 +137,7 @@ h4.profile-badge__content-profile-company-school-info{display:none}
 h3.profile-badge__content-profile-name{float:left;margin-top:25px;margin-left:10px}
 img.artdeco-entity-image.artdeco-entity-image--circle-4.profile-badge__content-profile-image{float:left}
 h4.profile-badge__content-profile-headline{display:block;width:100%;float:left;margin-bottom:0}
-.instagram-wrapper .section-header:before{content:"";width:130px;height:130px;background:url(../images/icons/girl-social.png);background-repeat:no-repeat;background-size:contain;position:absolute;bottom:-4px;right:0;z-index:100;display:block;opacity:1;background-position:center}
+.instagram-wrapper .section-header:before{content:"";width:130px;height:130px;background:url(../images/icons/girl-social.png);background-repeat:no-repeat;background-size:contain;position:absolute;bottom:-4px;right:40px;z-index:100;display:block;opacity:1;background-position:center}
 .crt-panel-next,.crt-panel-prev{background:linear-gradient(180deg,rgba(231,3,108,.65) 0%,rgba(255,77,65,.65) 90%)!important}
 footer{position:relative}
 footer:after{content:"";height:3px;border-bottom:1px solid #E7036C;position:absolute;top:0;border-top:1px solid #E7036C;width:100%;left:0}
