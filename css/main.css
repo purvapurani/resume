@@ -102,7 +102,7 @@ section.social-wrapper.animate-me:after{top:309px}
 /*.crt-feed>div{width:33%!important}*/
 .crt-widget .crt-post-text{min-height:90px}
 .crt-popup,.crt-popup *{max-height:80vh}
-.linkedin-wrapper{z-index:15;position:relative}
+.linkedin-wrapper{z-index:15;position:relative;min-height:280px}
 .crt-post-c:hover{cursor:url(../images/icons/cursor-pointer.png),auto!important}
 .crt-post-name >span{display:none}
 .crt-popup-wrapper .crt-popup .crt-popup-read-more a.crt-button{background:linear-gradient(180deg,rgba(231,3,108,.75) 0%,rgba(255,77,65,.75) 90%)!important;border-radius:30px!important;color:#fff!important}
