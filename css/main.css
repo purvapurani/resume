@@ -118,6 +118,7 @@ a.crt-logo.crt-tag{text-align:center;margin-top:10px!important;font-size:.8em!im
 .crt-popup-wrapper .crt-popup.crt-has-read-more.has-image .crt-popup-right .crt-popup-text{text-align:center}
 .crt-widget .crt-grid-post .crt-post-text a{display:none}
 .crt-widget .crt-post-text a[href*="tags"] {display: none;}
+.crt-widget .crt-social-icon svg.crt-icon-instagram {margin: 0 auto;}
 .crt-widget .crt-post-text{min-height: 110px;}
 .crt-grid-post-content span.crt-social-icon{background:linear-gradient(180deg,rgba(231,3,108,.75) 0%,rgba(255,77,65,.75) 90%);border-radius:50%;z-index:50;padding:5px}
 .crt-grid-post-content svg.crt-icon-instagram{color:#fff!important;width:16px!important;height:16px!important}
