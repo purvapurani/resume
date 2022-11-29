@@ -99,7 +99,7 @@ section.social-wrapper:after{opacity:.7;content:"";background:url(../images/back
 section.social-wrapper.animate-me:after{top:309px}
 .section-header h2{text-align:center;display:inline-block;font-family:PinyonScript-Regular;font-size:3em;padding:0 80px}
 .section-header h2:before,.section-header h2:after{background:#000}
-.crt-feed>div{width:33%!important}
+/*.crt-feed>div{width:33%!important}*/
 .crt-widget .crt-post-text{min-height:90px}
 .crt-popup,.crt-popup *{max-height:80vh}
 .linkedin-wrapper{z-index:15;position:relative}
