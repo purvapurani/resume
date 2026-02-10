@@ -144,7 +144,7 @@ footer{position:relative}
 footer:after{content:"";height:3px;position:absolute;top:0;border-top:1px solid #eee;width:100%;left:0}
 .contact-buttons-wrapper{display:flex;justify-content:center;margin-bottom:100px}
 .contact-button{margin:0 20px}
-.delivered-wrapper{font-size:.8em;text-align:center;padding:10px 0 0;background:linear-gradient(180deg,rgba(231,3,108,.65) 0%,rgba(255,77,65,.65) 90%);z-index:11;position:relative}
+.delivered-wrapper{font-size:.8em;text-align:center;padding:10px 0 0;background:#000;z-index:11;position:relative;color:#fff;}
 footer#contact-wrapper .container-fluid{position:relative}
 footer#contact-wrapper .container-fluid:after{content:"";width:130px;height:130px;background:url(../images/icons/girl-thanks.png);background-repeat:no-repeat;background-size:contain;position:absolute;bottom:-5px;right:20px;z-index:100;display:block;opacity:1;background-position:center;display:none !important;}
 .download-resume-icon,.contact-button{width:70px;background:#eee;border-radius:50%;z-index:50;border:2px solid #000}
