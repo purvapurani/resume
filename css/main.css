@@ -27,7 +27,7 @@ ul li:before{content:"◉ ";font-size:14px;position:absolute;left:0;top:14px;lin
 section.about-section:before,.contact-wrapper:before{background-image:url(../images/backgrounds/brush-bg.png);position:relative;background-size:contain;background-repeat:no-repeat;background-position:center;content:"";width:100%;height:100%;position:absolute;top:0;left:0;opacity:.25;display:none !important;}
 section.about-section p{z-index:10;position:relative;font-size:1.1em}
 section#intro-wrapper .container-fluid:before{content:"";width:130px;height:130px;background:url(../images/icons/girl-hi.png);background-repeat:no-repeat;background-size:contain;position:absolute;bottom:-2px;left:0;z-index:100;display:block;opacity:1;background-position:center;display:none !important;}
-section#intro-wrapper .container-fluid{position:relative;padding-bottom:70px}
+section#intro-wrapper .container-fluid{position:relative;padding-bottom:50px}
 .header-center img{max-width:250px}
 .container-fluid{max-width:1200px}
 .banner{height:100vh;background-size:cover;background-repeat:no-repeat;background-position:center bottom;background-attachment:fixed;background-color:#fff}
