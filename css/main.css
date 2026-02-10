@@ -43,7 +43,7 @@ span.scrolldown img{width:70px;filter:invert(1)}
 span.scrolldown{display:inline-block;position:absolute;animation:MoveUpDown 1s linear infinite;bottom:0;left:50%;transform:translateX(-50%)}
 section.banner{width:100vw;position:fixed;top:0;left:0}
 footer.contact-wrapper{background:#fff}
-.profile-picture{max-width:250px;margin:0 auto;border-radius:50%;overflow:hidden;border:5px solid #fff;margin-bottom:20px}
+.profile-picture{max-width:250px;margin:0 auto;border-radius:50%;overflow:hidden;border:5px solid #000;margin-bottom:20px}
 div#particles{width:100%;height:100vh;background-color:#F7F7F7;}
 div#particles canvas{width:100%;height:100vh}
 .video-wrapper{z-index:11;transition:opacity .6s;position:absolute;width:100%;height:100%;left:0;top:0;overflow:hidden}
