@@ -35,11 +35,11 @@ section#intro-wrapper .container-fluid{position:relative;padding-bottom:70px}
 .banner-text h1,.section-header h2{font-size:2em;line-height:1.2;position:relative}
 .banner-text p{color:#000;font-size:16px}
 .banner-text h1 img{padding:0 80px}
-.banner-text h1:after,.section-header h2:after{content:"";width:60px;height:2px;background:#000;display:inline-block;position:absolute;left:0;top:50%}
-.banner-text h1:before,.section-header h2:before{content:"";width:60px;height:2px;background:#000;display:inline-block;position:absolute;right:0;top:50%}
+.banner-text h1:after,.section-header h2:after{content:"";width:60px;height:2px;background:#000;display:inline-block;position:absolute;left:0;top:35%}
+.banner-text h1:before,.section-header h2:before{content:"";width:60px;height:2px;background:#000;display:inline-block;position:absolute;right:0;top:35%}
 section.banner:after{content:"";width:100%;height:100%;position:absolute;top:0;left:0}
 em{font-style:italic}
-span.scrolldown img{width:70px;filter:invert(1)}
+span.scrolldown img{width:70px;}
 span.scrolldown{display:inline-block;position:absolute;animation:MoveUpDown 1s linear infinite;bottom:0;left:50%;transform:translateX(-50%)}
 section.banner{width:100vw;position:fixed;top:0;left:0}
 footer.contact-wrapper{background:#fff}
