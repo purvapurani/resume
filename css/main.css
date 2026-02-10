@@ -20,10 +20,10 @@ body p{font-size:1em;line-height:1.2;margin-bottom:10px;font-weight:800}
 .PinyonScript{font-family:PinyonScript-Regular}
 ul li{position:relative;padding-left:25px;margin-bottom:10px;font-weight:800;line-height: 1.6;}
 ul li li{margin-bottom:2px}
-ul li:before{content:"◉ ";font-size:14px;position:absolute;left:0;top:14px;line-height:0;color:#FF4D41}
+ul li:before{content:"◉ ";font-size:14px;position:absolute;left:0;top:14px;line-height:0;color:#bbb}
 .about-section p{padding-bottom:15px}
 .about-section{text-align:center;position:relative;overflow:hidden;margin-top:100vh;background:#fff}
-.about-section:after{content:"";height:3px;border-bottom:1px solid #E7036C;position:absolute;bottom:0;border-top:1px solid #E7036C;width:100%;left:0}
+.about-section:after{content:"";height:3px;border-bottom:1px solid #eee;position:absolute;bottom:0;width:100%;left:0}
 section.about-section:before,.contact-wrapper:before{background-image:url(../images/backgrounds/brush-bg.png);position:relative;background-size:contain;background-repeat:no-repeat;background-position:center;content:"";width:100%;height:100%;position:absolute;top:0;left:0;opacity:.25;display:none !important;}
 section.about-section p{z-index:10;position:relative;font-size:1.1em}
 section#intro-wrapper .container-fluid:before{content:"";width:130px;height:130px;background:url(../images/icons/girl-hi.png);background-repeat:no-repeat;background-size:contain;position:absolute;bottom:-2px;left:0;z-index:100;display:block;opacity:1;background-position:center;display:none !important;}
@@ -57,7 +57,7 @@ div#particles canvas{width:100%;height:100vh}
 .journey-row:last-child .journey-content-box{padding-bottom:40px}
 .journey-row{align-items:center}
 .journey-intro-box img{margin-bottom:20px}
-.certificates-wrapper{min-height:400px;background:linear-gradient(180deg,rgba(231,3,108,.65) 0%,rgba(255,77,65,.65) 90%);position:relative;text-align:center;padding-bottom:120px;overflow:hidden}
+.certificates-wrapper{min-height:400px;background:#fff;position:relative;text-align:center;padding-bottom:120px;overflow:hidden}
 .journey-intro-box h4{margin:0}
 .journey-intro-box{padding-top:30px}
 .journey-row .journey-content-box{position:relative}
