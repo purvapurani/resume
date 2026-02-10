@@ -146,10 +146,9 @@ footer:after{content:"";height:3px;border-bottom:1px solid #E7036C;position:abso
 .delivered-wrapper{font-size:.8em;text-align:center;padding:10px 0 0;background:linear-gradient(180deg,rgba(231,3,108,.65) 0%,rgba(255,77,65,.65) 90%);z-index:11;position:relative}
 footer#contact-wrapper .container-fluid{position:relative}
 footer#contact-wrapper .container-fluid:after{content:"";width:130px;height:130px;background:url(../images/icons/girl-thanks.png);background-repeat:no-repeat;background-size:contain;position:absolute;bottom:-5px;right:20px;z-index:100;display:block;opacity:1;background-position:center}
-.download-resume-icon,.contact-button{width:70px;background:linear-gradient(180deg,rgba(231,3,108,.75) 0%,rgba(255,77,65,.75) 90%);border-radius:50%;z-index:50}
+.download-resume-icon,.contact-button{width:70px;background:#eee;border-radius:50%;z-index:50;border:2px solid #000}
 .download-resume-icon{position:fixed;right:20px;bottom:20px}
 .download-resume-icon a,.contact-button a{display:block;padding:18px;margin:0 auto}
-.download-resume-icon a img,.contact-button a img{filter:invert(1)}
 section.page-navigation{position:fixed;right:0;top:50%;transform:translate(calc(100% - 60px),-50%);background:#fff;padding:20px 40px 20px 20px;border-radius:20px;transition:transform .5s;z-index:50;-webkit-box-shadow:-5px 5px 5px 0 rgba(255,77,65,0.2);-moz-box-shadow:-5px 5px 5px 0 rgba(255,77,65,0.2);box-shadow:-5px 5px 5px 0 rgba(255,77,65,0.2)}
 section.page-navigation ul li:before{display:none}
 section.page-navigation ul li a:before{content:"";position:absolute;left:0;background:#000;top:0;width:25px;height:25px;border-radius:50%}
