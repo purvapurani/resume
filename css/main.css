@@ -50,7 +50,7 @@ div#particles canvas{width:100%;height:100vh}
 .video-wrapper{z-index:11;transition:opacity .6s;position:absolute;width:100%;height:100%;left:0;top:0;overflow:hidden}
 .video-wrapper video{width:100%;min-width:100%;height:auto;background:#000;position:relative;top:50%;transform:translatey(-50%)}
 .journey-wrapper{overflow:hidden;padding-bottom:100px;background-image:url(../images/backgrounds/bg-pattern.png);position:relative;background-attachment:fixed;background-color:#fff}
-.journey-content-box{padding:50px 20px 60px;border:2px solid #eee;margin-bottom:-50px;background:#fff}
+.journey-content-box{padding:50px 20px 80px;border:2px solid #eee;margin-bottom:-50px;background:#fff}
 .journey-row > div:first-child{position:relative;left:-200px;opacity:0;transition:all 1s}
 .journey-row > div:last-child{position:relative;right:-200px;opacity:0;transition:all 1s}
 .animate-me.journey-row > div:first-child{left:0;opacity:1}
