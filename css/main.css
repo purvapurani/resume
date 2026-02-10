@@ -24,19 +24,19 @@ ul li:before{content:"◉ ";font-size:14px;position:absolute;left:0;top:14px;lin
 .about-section p{padding-bottom:15px}
 .about-section{text-align:center;position:relative;overflow:hidden;margin-top:100vh;background:#fff}
 .about-section:after{content:"";height:3px;border-bottom:1px solid #E7036C;position:absolute;bottom:0;border-top:1px solid #E7036C;width:100%;left:0}
-section.about-section:before,.contact-wrapper:before{background-image:url(../images/backgrounds/brush-bg.png);position:relative;background-size:contain;background-repeat:no-repeat;background-position:center;content:"";width:100%;height:100%;position:absolute;top:0;left:0;opacity:.25}
+section.about-section:before,.contact-wrapper:before{background-image:url(../images/backgrounds/brush-bg.png);position:relative;background-size:contain;background-repeat:no-repeat;background-position:center;content:"";width:100%;height:100%;position:absolute;top:0;left:0;opacity:.25;display:none !important;}
 section.about-section p{z-index:10;position:relative;font-size:1.1em}
-section#intro-wrapper .container-fluid:before{content:"";width:130px;height:130px;background:url(../images/icons/girl-hi.png);background-repeat:no-repeat;background-size:contain;position:absolute;bottom:-2px;left:0;z-index:100;display:block;opacity:1;background-position:center}
+section#intro-wrapper .container-fluid:before{content:"";width:130px;height:130px;background:url(../images/icons/girl-hi.png);background-repeat:no-repeat;background-size:contain;position:absolute;bottom:-2px;left:0;z-index:100;display:block;opacity:1;background-position:center;display:none !important;}
 section#intro-wrapper .container-fluid{position:relative;padding-bottom:70px}
 .header-center img{max-width:250px}
 .container-fluid{max-width:1200px}
 .banner{height:100vh;background-size:cover;background-repeat:no-repeat;background-position:center bottom;background-attachment:fixed;background-color:#fff}
 .banner-text{position:absolute;left:50%;transform:translate(-50%,-50%);color:#fff;top:50%;text-align:center;z-index:1}
 .banner-text h1,.section-header h2{font-size:2em;line-height:1.2;position:relative}
-.banner-text p{color:#fff;font-size:16px}
-.banner-text h1 img{filter:invert(1);padding:0 80px}
-.banner-text h1:after,.section-header h2:after{content:"";width:60px;height:2px;background:#fff;display:inline-block;position:absolute;left:0;top:50%}
-.banner-text h1:before,.section-header h2:before{content:"";width:60px;height:2px;background:#fff;display:inline-block;position:absolute;right:0;top:50%}
+.banner-text p{color:#000;font-size:16px}
+.banner-text h1 img{padding:0 80px}
+.banner-text h1:after,.section-header h2:after{content:"";width:60px;height:2px;background:#000;display:inline-block;position:absolute;left:0;top:50%}
+.banner-text h1:before,.section-header h2:before{content:"";width:60px;height:2px;background:#000;display:inline-block;position:absolute;right:0;top:50%}
 section.banner:after{content:"";width:100%;height:100%;position:absolute;top:0;left:0}
 em{font-style:italic}
 span.scrolldown img{width:70px;filter:invert(1)}
@@ -44,7 +44,7 @@ span.scrolldown{display:inline-block;position:absolute;animation:MoveUpDown 1s l
 section.banner{width:100vw;position:fixed;top:0;left:0}
 footer.contact-wrapper{background:#fff}
 .profile-picture{max-width:250px;margin:0 auto;border-radius:50%;overflow:hidden;border:5px solid #fff;margin-bottom:20px}
-div#particles{width:100%;height:100vh;background:linear-gradient(180deg,rgba(231,3,108,0.75) 0%,rgba(255,77,65,0.75) 90%)}
+div#particles{width:100%;height:100vh;background-color:#F7F7F7;}
 div#particles canvas{width:100%;height:100vh}
 .video-wrapper{z-index:11;transition:opacity .6s;position:absolute;width:100%;height:100%;left:0;top:0;overflow:hidden}
 .video-wrapper video{width:100%;min-width:100%;height:auto;background:#000;position:relative;top:50%;transform:translatey(-50%)}
@@ -61,9 +61,9 @@ div#particles canvas{width:100%;height:100vh}
 .journey-intro-box h4{margin:0}
 .journey-intro-box{padding-top:30px}
 .journey-row .journey-content-box{position:relative}
-.journey-row-1 .journey-content-box:before{content:"";width:130px;height:130px;background:url(../images/icons/girl-glasses-mustache.png);background-repeat:no-repeat;background-size:contain;position:absolute;bottom:calc(100% - 2px);right:0;z-index:100;display:block;opacity:1;background-position:center}
-.journey-row-2 .journey-content-box:before{content:"";width:130px;height:130px;background:url(../images/icons/girl-glasses-serious.png);background-repeat:no-repeat;background-size:contain;position:absolute;bottom:calc(100% - 2px);left:0;z-index:100;display:block;opacity:1;background-position:center}
-.journey-row-3 .journey-content-box:before{content:"";width:130px;height:130px;background:url(../images/icons/girl-good-sign.png);background-repeat:no-repeat;background-size:contain;position:absolute;bottom:calc(100% - 2px);right:0;z-index:100;display:block;opacity:1;background-position:center}
+.journey-row-1 .journey-content-box:before{content:"";width:130px;height:130px;background:url(../images/icons/girl-glasses-mustache.png);background-repeat:no-repeat;background-size:contain;position:absolute;bottom:calc(100% - 2px);right:0;z-index:100;display:block;opacity:1;background-position:center;display:none !important;}
+.journey-row-2 .journey-content-box:before{content:"";width:130px;height:130px;background:url(../images/icons/girl-glasses-serious.png);background-repeat:no-repeat;background-size:contain;position:absolute;bottom:calc(100% - 2px);left:0;z-index:100;display:block;opacity:1;background-position:center;display:none !important;}
+.journey-row-3 .journey-content-box:before{content:"";width:130px;height:130px;background:url(../images/icons/girl-good-sign.png);background-repeat:no-repeat;background-size:contain;position:absolute;bottom:calc(100% - 2px);right:0;z-index:100;display:block;opacity:1;background-position:center;display:none !important;}
 .certificates-wrapper .section-header{padding-bottom:40px}
 .certificates-wrapper h3{min-height:62px}
 .certificates-wrapper .cert-box{position:relative;z-index:1;opacity:0;transition:all 1s;position:relative}
@@ -73,7 +73,7 @@ div#particles canvas{width:100%;height:100vh}
 .certificates-wrapper.animate-me .cert-box{top:0;opacity:1}
 section.certificates-wrapper:after{content:"";background:url(../images/icons/certificate.png);height:90%;position:absolute;top:40px;left:8%;background-size:contain;background-repeat:no-repeat;width:500px;opacity:.1;filter:invert(1)}
 .cert-logo{display:block;max-width:160px;margin:0 auto;opacity:1;overflow:hidden;margin-bottom:20px;z-index:1;position:relative;min-height:170px}
-.certificates-wrapper:before{content:"";width:130px;height:130px;background:url(../images/icons/girl-wow.png);background-repeat:no-repeat;background-size:contain;position:absolute;bottom:-5px;right:calc(50% - 65px);z-index:100;display:block;opacity:1;background-position:center}
+.certificates-wrapper:before{content:"";width:130px;height:130px;background:url(../images/icons/girl-wow.png);background-repeat:no-repeat;background-size:contain;position:absolute;bottom:-5px;right:calc(50% - 65px);z-index:100;display:block;opacity:1;background-position:center; display: none !important;}
 .testimonials-wrapper{background:#fff;padding-bottom:70px;position:relative;margin:60px 0}
 .testimonials-wrapper h2{font-size:3em;color:#000;background:#fff}
 .testimonials-wrapper .section-header h2:before,.testimonials-wrapper .section-header h2:after{background:#000;opacity:0}
@@ -91,7 +91,7 @@ section.certificates-wrapper:after{content:"";background:url(../images/icons/cer
 .testimonials-blocks{position:relative;z-index:10;margin-bottom:60px}
 section.testimonials-wrapper:after{width:calc(100% - 100px);height:calc(100% - 100px);position:absolute;top:25px;left:25px;content:"";border:2px solid #E7036C}
 section.testimonials-wrapper:before{width:calc(100% - 100px);height:calc(100% - 100px);position:absolute;top:75px;left:75px;content:"";border:2px solid #FF4D41}
-section#testimonials-wrapper .testimonials-blocks:before{content:"";width:130px;height:130px;background:url(../images/icons/girl-hearts.png);background-repeat:no-repeat;background-size:contain;position:absolute;left:-50px;z-index:100;display:block;opacity:1;background-position:center;top:calc(100% - 64px)}
+section#testimonials-wrapper .testimonials-blocks:before{content:"";width:130px;height:130px;background:url(../images/icons/girl-hearts.png);background-repeat:no-repeat;background-size:contain;position:absolute;left:-50px;z-index:100;display:block;opacity:1;background-position:center;top:calc(100% - 64px);display:none !important;}
 .social-wrapper{padding-bottom:80px;position:relative;background:url(../images/backgrounds/social-bg.png);background-attachment:fixed;overflow:hidden}
 section.social-wrapper:before{opacity:.7;content:'';position:absolute;width:100%;height:309px;top:0;left:0;background:#FF4D41;z-index:9;background:#e7036c;background:linear-gradient(180deg,rgba(231,3,108,1) 0%,rgba(255,77,65,1) 90%);transition:top 2s;top:-409px}
 section.social-wrapper:after{opacity:.7;content:"";background:url(../images/backgrounds/paintdrip-bg.png);width:100%;height:610px;left:0;background-repeat:no-repeat;position:absolute;z-index:12;transform:rotate(180deg);background-position:center;transition:top 2s;top:-100px}
